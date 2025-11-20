@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Strategy (Clone)</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/hero.css" />
+    <link rel="stylesheet" href="./css/section2.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="nav-bar">
+          <div class="nav-bar__logo"><h1>STRATEGY</h1></div>
+          <div class="nav-bar__content">
+            <ul>
+              <li class="nav-bar__item"><a href="#">Home</a></li>
+              <li class="nav-bar__item"><a href="#">About</a></li>
+              <li class="nav-bar__item"><a href="#">Services</a></li>
+              <li class="nav-bar__item"><a href="#">Portfolio</a></li>
+              <li class="nav-bar__item"><a href="#">Team</a></li>
+              <li
+                class="nav-bar__item nav-bar__item--hover-state"
+                id="drop-down-list-position"
+              >
+                <span class="nav-bar__item--highlighted"
+                  >Dropdown
+                  <span class="nav-bar__down-angle"
+                    ><i class="fas fa-angle-down"></i></span
+                ></span>
+                <ul>
+                  <li class="nav-bar__drop-down-item">
+                    <a href="#">Dropdown 1</a>
+                  </li>
+                  <li class="nav-bar__deep-drop-down-container">
+                    <span class="nav-bar__item--highlighted"
+                      >Deep Dropdown
+                      <span class="nav-bar__down-angle"
+                        ><i class="fas fa-angle-down"></i></span
+                    ></span>
+                    <ul>
+                      <li class="nav-bar__deep-drop-down-item">
+                        <a href="#">Deep Dropdown 1</a>
+                      </li>
+                      <li class="nav-bar__deep-drop-down-item">
+                        <a href="#">Deep Dropdown 2</a>
+                      </li>
+                      <li class="nav-bar__deep-drop-down-item">
+                        <a href="#">Deep Dropdown 3</a>
+                      </li>
+                      <li class="nav-bar__deep-drop-down-item">
+                        <a href="#">Deep Dropdown 4</a>
+                      </li>
+                      <li class="nav-bar__deep-drop-down-item">
+                        <a href="#">Deep Dropdown 5</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-bar__drop-down-item">
+                    <a href="#">Dropdown 2</a>
+                  </li>
+                  <li class="nav-bar__drop-down-item">
+                    <a href="#">Dropdown 3</a>
+                  </li>
+                  <li class="nav-bar__drop-down-item">
+                    <a href="#">Dropdown 4</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-bar__item"><a href="#">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="nav-bar__button">
+            <span class="nav-bar__button--yellow">
+              <button>Get Started</button>
+            </span>
+          </div>
+          <div class="hamburger">
+            <span class="hamburger__bar"></span
+            ><span class="hamburger__bar"></span
+            ><span class="hamburger__bar"></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="hero">
+      <div class="hero__container">
+        <div class="hero__information">
+          <h3 class="agency__title">OUR AGENCY</h3>
+          <h1 class="hero__main-title">
+            <strong>CREATIVE<br />DESIGN</strong>
+          </h1>
+          <div class="hero__line-wrapper"></div>
+          <div>
+            <p class="hero__paragraph">
+              Discover innovative strategies for impactful visual communication.
+              We transform ideas into compelling realities, ensuring your brand
+              stands out in a crowded marketplace. Our dedicated team leverages
+              cutting-edge techniques to deliver exceptional results that
+              resonate with your audience.
+            </p>
+          </div>
+          <button class="hero__explore-more-btn">
+            <span
+              ><b class="explore-more__btn--after">EXPLORE SERVICES</b></span
+            >
+          </button>
+        </div>
+        <div class="hero__img">
+          <picture>
+            <source srcset="./images/hero-img.webp" />
+            <img src="./images/hero-img.webp" alt="hero-img" />
+          </picture>
+          <div class="Hero__5K__Card">
+            <h4>5k</h4>
+            <button><i class="fa-solid fa-arrow-up"></i></button>
+            <p>Successful Campaigns</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section2">
+      <div class="section2_head">
+        <span><small>About</small></span>
+        <div class="sec2_line-decor"></div>
+        <h4>Learn More About Us</h4>
+      </div>
+    </section>
+    <script src="./scripts/nav-bar.js"></script>
+  </body>
+</html>

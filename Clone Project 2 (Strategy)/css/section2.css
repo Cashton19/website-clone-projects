@@ -1,0 +1,10 @@
+.section2 {
+  background-color: #031119;
+  display: grid;
+  place-items: center;
+  height: 120vh;
+  overflow-x: hidden;
+  padding-top: 15vh;
+  padding-bottom: 15vh;
+  box-sizing: border-box;
+}
